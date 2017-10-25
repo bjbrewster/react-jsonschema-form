@@ -28,7 +28,7 @@ function DateElement(props) {
     registry,
     onBlur,
   } = props;
-  const id = rootId + "_" + type;
+  const id = rootId + "__" + type;
   const { SelectWidget } = registry.widgets;
   return (
     <SelectWidget
